@@ -5,7 +5,7 @@ import pytest
 from base.base_driver import init_driver
 from base.base_yml import yml_data_with_file
 from page.search_page import SearchPage
-
+#导入所需要的模块
 
 def data_with_key(key):
     return yml_data_with_file("shuju")[key]
